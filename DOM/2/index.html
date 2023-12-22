@@ -1,0 +1,45 @@
+<!-- how to render axios in frontend
+https://jsonplaceholder.typicode.com/todos
+get the data ns store in a table -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API call </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<style>
+    th {
+        border: 1px solid black;
+        text-align: center;
+    }
+    tbody,tr,td {
+        border: 1px solid black;
+        text-align: center;
+    }
+</style>
+<body>
+
+  <center>
+    <button id="btn"> completed </button>
+    <button id="not">Not completed</button>
+    <table>
+          
+    <thead>
+        <tr>
+            <th>USER ID</th>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>COMPLETED</th>
+        </tr>
+    </thead>
+    <tbody id="myTable">
+
+    </tbody>
+    </table>
+  </center>
+    
+</body>
+<script src="./script.js"></script>
+</html>

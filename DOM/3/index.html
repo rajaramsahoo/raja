@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>LAB-3</title>
+</head>
+<style>
+    thead,th {
+        border: 1px solid red;
+    }
+    tbody,td,tr{
+        border: 1px solid red;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+           <tr>
+            <th rowspan="2">ID</th>
+            <th rowspan="2">NAME</th>
+            <th rowspan="2">USERNAME</th>
+            <th rowspan="2">EMAIL</th>
+            <th rowspan="2">ADRESS</th>
+            <th colspan="2">GEo</th>
+            <th rowspan="2">PHONE</th>
+            <th rowspan="2">WEBSITE</th>
+            <th rowspan="2">COMPANY</th>
+           </tr>
+           <tr>
+            <th>LONG</th>
+            <th>LAT</th>
+           </tr>
+          
+        </thead>
+        <tbody id="myTable">
+
+        </tbody>
+    </table>
+    
+</body>
+<script src = "script.js"></script>
+</html>
